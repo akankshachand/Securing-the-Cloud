@@ -91,7 +91,7 @@ def main():
         gauth.Authorize()
     gauth.SaveCredentialsFile("credentials.txt")
     drive = GoogleDrive(gauth)
-    root_folder_id = "1pyu7scndXKk-hFBYs_dNrHxOP1NeA5rp"
+    root_folder_id = #insert drive folder ID here
     root_folder = drive.ListFile({'q': "'" + root_folder_id + "' in parents and trashed=false"}).GetList()
     if DriveManager.find_folder(root_folder,groupname) is None:
         folder_id = DriveManager.create_folder(root_folder_id, groupname, drive)
