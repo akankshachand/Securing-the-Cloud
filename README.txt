@@ -10,8 +10,3 @@ To run the project:
 
 The files to be uploaded on the drive need to be in the 'testfiles' folder.
 The files downloaded from the drive will be downloaded in the 'downloads' folder.
-
-
-Submitted By:
-Akanksha Ishwar Chand (AXC170054)
-Lina Saha (LXS170008)
